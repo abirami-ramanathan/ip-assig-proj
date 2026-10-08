@@ -1,0 +1,12 @@
+Constrained Least Squares Restoration Run
+==================================================
+Input source: skimage.data.camera()
+Shape: 512 x 512
+PSF: Gaussian 9x9, sigma=0.8
+Noise std: 0.001
+Seed: 42
+Gamma: 0.00031099515499401984
+Gamma selection: automatic discrepancy principle
+Residual MSE: 9.66872869871444e-07
+Final PSNR: 37.955860 dB
+Final SSIM: 0.971378

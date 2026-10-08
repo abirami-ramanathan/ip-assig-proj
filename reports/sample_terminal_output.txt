@@ -1,0 +1,33 @@
+==============================================================================
+CONSTRAINED LEAST SQUARES (CLS) IMAGE RESTORATION
+==============================================================================
+Input source              : skimage.data.camera()
+Image shape               : 512 x 512
+Pixel range               : [0.000, 1.000]
+PSF                       : Gaussian 9x9, sigma=0.8
+Noise standard deviation : 0.001
+Random seed               : 42
+
+STAGE METRICS
+------------------------------------------------------------------------------
+Original vs degraded         MSE=0.00082766  RMSE=0.028769  MAE=0.015015  PSNR=30.821 dB  SSIM=0.90333
+Raw CLS output range     : [-0.011826, 1.042604]
+
+Gamma                     : 0.000310995155 (automatic discrepancy principle)
+Target noise variance     : 0.00000100
+Restoration residual MSE  : 0.00000097
+Max absolute injected noise: 0.005007
+
+REFERENCE vs RESTORATION
+------------------------------------------------------------------------------
+Blurred                      MSE=0.00082684  RMSE=0.028755  MAE=0.014917  PSNR=30.826 dB  SSIM=0.90388
+Degraded + noise             MSE=0.00082766  RMSE=0.028769  MAE=0.015015  PSNR=30.821 dB  SSIM=0.90333
+CLS clipped                  MSE=0.00016011  RMSE=0.012653  MAE=0.007872  PSNR=37.956 dB  SSIM=0.97138
+Final restored               MSE=0.00016011  RMSE=0.012653  MAE=0.007872  PSNR=37.956 dB  SSIM=0.97138
+
+PSNR improvement          : +7.134 dB
+SSIM improvement          : +0.06805
+
+Outputs written to      : /mnt/data/ip-assig-proj/outputs
+Completed successfully.
+==============================================================================
